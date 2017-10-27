@@ -30,3 +30,4 @@ c:\users\tszo.redmond\documents\visual studio 2015\Projects\ImmunizationSchedule
 c:\users\tszo.redmond\documents\visual studio 2015\Projects\ImmunizationScheduleGenerator\ImmunizationScheduleGenerator\bin\System.Web.Http.WebHost.xml
 c:\users\tszo.redmond\documents\visual studio 2015\Projects\ImmunizationScheduleGenerator\ImmunizationScheduleGenerator\obj\Debug\ImmunizationScheduleGenerator.dll
 c:\users\tszo.redmond\documents\visual studio 2015\Projects\ImmunizationScheduleGenerator\ImmunizationScheduleGenerator\obj\Debug\ImmunizationScheduleGenerator.pdb
+c:\users\tszo.redmond\documents\visual studio 2015\Projects\ImmunizationScheduleGenerator\ImmunizationScheduleGenerator\obj\Debug\ImmunizationScheduleGenerator.csprojResolveAssemblyReference.cache

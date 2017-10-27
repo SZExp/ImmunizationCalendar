@@ -18,7 +18,8 @@ namespace ImmunizationScheduleGenerator
             ImmunizationScheduleGenerator generator = new ImmunizationScheduleGenerator();
             DateTime dtBirthday = Convert.ToDateTime(birthday);
             string icsContent = generator.ICSFileGenerator(name, dtBirthday);
-            return icsContent.Replace("\r\n", "");
+            return icsContent;
+            //return icsContent.Replace("\r\n", "");
         }
 
 
