@@ -1,0 +1,5 @@
+ProjectItem:c:\users\tszo.redmond\documents\visual studio 2015\Projects\ImmunizationScheduleGenerator\ImmunizationScheduleGenerator\ApplicationInsights.config
+ProjectItem:c:\users\tszo.redmond\documents\visual studio 2015\Projects\ImmunizationScheduleGenerator\ImmunizationScheduleGenerator\Models\PatientModel.cs
+ProjectItem:c:\users\tszo.redmond\documents\visual studio 2015\Projects\ImmunizationScheduleGenerator\ImmunizationScheduleGenerator\App_Data\VaccinationSchedule.txt
+ProjectItem:c:\users\tszo.redmond\documents\visual studio 2015\Projects\ImmunizationScheduleGenerator\ImmunizationScheduleGenerator\Models\ImmunizationScheduleGenerator.cs
+ProjectItem:c:\users\tszo.redmond\documents\visual studio 2015\Projects\ImmunizationScheduleGenerator\ImmunizationScheduleGenerator\Models\CalendarReminderTemplate.cs

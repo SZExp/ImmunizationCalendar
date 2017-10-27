@@ -1,0 +1,11 @@
+0, Hepatitis B
+1, Hepatitis B
+2, Rotavirus(RV1[Rotarix], RV5[RotaTeq])|Diphtheria, tetanus, & acellular pertussis|Haemophilus influenzae type b|Pneumococcal conjugate|Inactivated poliovirus
+4, Rotavirus(RV1[Rotarix], RV5[RotaTeq])|Diphtheria, tetanus, & acellular pertussis|Haemophilus influenzae type b|Pneumococcal conjugate|Inactivated poliovirus
+6, Diphtheria, tetanus, & acellular pertussis|Pneumococcal conjugate|Inactivated poliovirus|Influenza
+12,Measles, mumps, rubella|Varicella|Hepatitis A
+15,Diphtheria, tetanus, & acellular pertussis|Haemophilus influenzae type b
+18,Hepatitis A|Hepatitis B|Diphtheria, tetanus, & acellular pertussis|Inactivated poliovirus
+
+
+
