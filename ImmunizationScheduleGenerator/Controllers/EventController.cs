@@ -1,20 +1,27 @@
 ﻿using ImmunizationScheduleGenerator.Models;
-using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.IO;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
 using System.Text;
 using System.Web;
 using System.Web.Http;
-using System.Web.UI.WebControls;
 
 namespace ImmunizationScheduleGenerator
 {
     public class EventController : ApiController
-    { 
+    {
+        private const string NewLine = "\r\n";
+
+        [HttpGet]
+        public string GenerateSchedule(string name, string birthday)
+        {
+            ImmunizationScheduleGenerator generator = new ImmunizationScheduleGenerator();
+            DateTime dtBirthday = Convert.ToDateTime(birthday);
+            string icsContent = generator.ICSFileGenerator(name, dtBirthday);
+            return icsContent.Replace("\r\n", "");
+        }
+
+
         // POST api/GenerateSchedule
         public void GenerateSchedule([FromBody] PatientModel model)
         {

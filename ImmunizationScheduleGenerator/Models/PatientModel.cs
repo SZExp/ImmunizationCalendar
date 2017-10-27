@@ -1,17 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using System.Collections.Generic;
 
 namespace ImmunizationScheduleGenerator.Models
 {
     public class PatientModel
     {
-        //public PatientModel ()
-        //{
-        //    this.NameAndBirthday = new Dictionary<string, string>();
-        //}
-
         public Dictionary<string, string> NameAndBirthday { get; set; }
     }
 }
