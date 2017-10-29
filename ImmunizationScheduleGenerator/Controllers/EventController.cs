@@ -27,7 +27,7 @@ namespace ImmunizationScheduleGenerator
 
             var result = new HttpResponseMessage(HttpStatusCode.OK);
             result.Content = new ByteArrayContent(stream.ToArray());
-            result.Content.Headers.ContentType = new MediaTypeHeaderValue("application/octet-stream");
+            //result.Content.Headers.ContentType = new MediaTypeHeaderValue("application/octet-stream");
             result.Content.Headers.ContentDisposition =
                 new System.Net.Http.Headers.ContentDispositionHeaderValue("attachment")
                 {
