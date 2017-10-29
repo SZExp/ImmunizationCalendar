@@ -13,6 +13,7 @@ namespace ImmunizationScheduleGenerator
 {
     public class EventController : ApiController
     {
+        [HttpGet]
         public HttpResponseMessage  GetPatientCalendarFile(string name, string birthday)
         {
             var data = GenerateSchedule(name, birthday);
