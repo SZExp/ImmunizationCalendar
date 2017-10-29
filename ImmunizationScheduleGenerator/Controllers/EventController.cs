@@ -14,9 +14,9 @@ namespace ImmunizationScheduleGenerator
     public class EventController : ApiController
     {
         [HttpGet]
-        public HttpResponseMessage  GetPatientCalendarFile(string name, string birthday)
+        public HttpResponseMessage PatientCalendarFile(string name, string bday)
         {
-            var data = GenerateSchedule(name, birthday);
+            var data = GenerateSchedule(name, bday);
             var stream = new MemoryStream();
             using (StreamWriter writer = new StreamWriter(stream))
             {
@@ -31,7 +31,7 @@ namespace ImmunizationScheduleGenerator
             result.Content.Headers.ContentDisposition =
                 new System.Net.Http.Headers.ContentDispositionHeaderValue("attachment")
                 {
-                    FileName = name+birthday + ".ics" // super simplify file name for demo purpose
+                    FileName = name+bday + ".ics" // super simplify file name for demo purpose
                 };
 
             return result;
